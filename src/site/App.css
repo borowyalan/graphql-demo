@@ -4,6 +4,8 @@
 }
 
 .App-logo {
+  padding-top: 1em;
+
   animation: App-logo-spin infinite 20s linear;
   height: 25vmin;
   pointer-events: none;
