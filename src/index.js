@@ -7,19 +7,18 @@ import { InMemoryCache } from 'apollo-boost'
 import { ApolloProvider } from 'react-apollo'
 import { setContext } from 'apollo-link-context'
 
-import * as QUERIES from './queries'
+import * as QUERIES from './site/queries'
 
-import App from './App'
+import App from './site/App'
 import './index.css'
 
 const httpLink = createHttpLink({ uri: 'https://api.github.com/graphql'})
 
 const authLink = setContext(( _, {headers} ) => {
-    const API_TOKEN = '8d39e7b63fe03b38ddbc4f508bb488'
     return {
         headers: {
             ...headers,
-            authorization: `Bearer ${API_TOKEN}`
+            authorization: `Bearer 892aab90643aaf9b1e2355c19e7719e58d1d3e2f`
         }
     }
 })
