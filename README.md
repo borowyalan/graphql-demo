@@ -1,6 +1,6 @@
 # GraphQL-Demo
 
-## >> [Live version here!](graphql.borowyalan.com) <<>>
+## >> [Live version here!](https://graphql.borowyalan.com) <<>>
 
 ## Simple app that fetches top 10 repos on Github (based on stars) and displays it to the user. Clickable links included 🔗👆.
 
