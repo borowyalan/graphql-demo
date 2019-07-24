@@ -4,20 +4,22 @@
 }
 
 .App-logo {
-  padding-top: 1em;
+  height: 25vmin;
 
   animation: App-logo-spin infinite 20s linear;
-  height: 25vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  box-sizing: border-box;
+  
+  min-height: 100vh;
+  padding: 2em 0;
+  
+  background-color: #282c34;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -60,6 +62,7 @@ h3 {
 @media(min-width: 750px) {
   .App-list {
     margin-left: 6em;
+    font-size: 1em;
   }
 }
 
